@@ -1,0 +1,67 @@
+body, html, ul, ol, li, p, h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.unvisible {
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  z-index: -1000;
+}
+
+.header-section {
+  align-items: center;
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.header-title {
+  color: #fff;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.navigation-section {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+}
+
+.nav-item {
+  color: #fff;
+  font-size: 17px;
+  padding: 45px 28px;
+  transition: .3s background-color ease, .3s color ease;
+}
+
+.nav-item:hover {
+  border-top: 1px solid #fff;
+  cursor: pointer;
+  padding-top: 44px; 
+}
+
+.social {
+  fill: #ffd700;
+  padding-bottom: 45px;
+  padding-right: 12px;
+  padding-top: 45px;
+  transition: .3s background-color ease, .3s color ease;
+}
+
+.social:hover {
+  opacity: .5;
+}
