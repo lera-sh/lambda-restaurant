@@ -168,11 +168,11 @@ body, html, ul, ol, li, p, h1, h2, h3, h4 {
   background-image: url(/assets/css/images/ingrid-bg.png);
   display: flex;
   justify-content: flex-end;
-  padding: 100px 200px 100px 0px;
+  padding: 100px 200px 100px 0;
 }
 
 .descr-ingridients {
-  background-color: rgb(0%, 0%, 0%, .6);;
+  background-color: rgb(0, 0, 0, .6);;
   color: #fff;
   display: flex;
   flex-wrap: wrap;
@@ -200,4 +200,81 @@ body, html, ul, ol, li, p, h1, h2, h3, h4 {
 
 .img-section{
   margin-bottom: 70px;
+}
+
+.menu-section {
+  background-image: url(../css/images/menu-bg.png);
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px 0 100px 0;
+}
+
+.category-header {
+  text-align: center;
+}
+
+.dish-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dish-category {
+  margin-top: 50px;
+  width: 420px;
+}
+
+.category {
+  color: #cc9900;
+  font-family: "YesevaOne", 'Arial', 'Times New Roman', sans-serif;
+  font-size: 35px;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+
+.dish-name {
+  color: #cc9900;
+  font-family: "YesevaOne", 'Arial', 'Times New Roman', sans-serif;
+  font-size: 19px;
+  font-weight: lighter;
+  padding-bottom: 5px;
+}
+
+.dish-price {
+  color: #cc9900;
+  font-family: "YesevaOne", 'Arial', 'Times New Roman', sans-serif;
+  font-size: 19px;
+  font-weight: lighter;
+  padding-bottom: 5px;
+}
+
+.dish-description {
+  border-top: 1px solid #cc9900;
+  font-family: "Lato", 'Arial', 'Times New Roman', sans-serif;
+  font-size: 14px;
+  padding-bottom: 5px;
+  padding-top: 10px;
+  opacity: .7;
+}
+
+.special {
+  border: 1px solid rgba(204, 153, 0, .4);
+  padding: 10px;
+}
+
+.marker {
+  bottom: 79px;
+  position: absolute;
+  right: -1px;
+}
+
+.marker-special {
+  background-color: rgba(204, 153, 0, .5);
+  color: #fff;
+  padding: 4px 10px;
+}
+
+.dish {
+  margin-bottom: 20px;
+  padding: 10px;
+  position: relative;
 }
