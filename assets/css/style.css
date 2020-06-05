@@ -206,7 +206,7 @@ body, html, ul, ol, li, p, h1, h2, h3, h4 {
   background-image: url(../css/images/menu-bg.png);
   display: flex;
   justify-content: space-evenly;
-  padding: 50px 0 100px 0;
+  padding: 50px 0 100px;
 }
 
 .category-header {
@@ -223,8 +223,8 @@ body, html, ul, ol, li, p, h1, h2, h3, h4 {
   width: 420px;
 }
 
-.category {
-  color: #cc9900;
+.category-name {
+  color: #c90;
   font-family: "YesevaOne", 'Arial', 'Times New Roman', sans-serif;
   font-size: 35px;
   font-weight: normal;
@@ -232,7 +232,7 @@ body, html, ul, ol, li, p, h1, h2, h3, h4 {
 }
 
 .dish-name {
-  color: #cc9900;
+  color: #c90;
   font-family: "YesevaOne", 'Arial', 'Times New Roman', sans-serif;
   font-size: 19px;
   font-weight: lighter;
@@ -240,7 +240,7 @@ body, html, ul, ol, li, p, h1, h2, h3, h4 {
 }
 
 .dish-price {
-  color: #cc9900;
+  color: #c90;
   font-family: "YesevaOne", 'Arial', 'Times New Roman', sans-serif;
   font-size: 19px;
   font-weight: lighter;
@@ -248,7 +248,7 @@ body, html, ul, ol, li, p, h1, h2, h3, h4 {
 }
 
 .dish-description {
-  border-top: 1px solid #cc9900;
+  border-top: 1px solid #c90;
   font-family: "Lato", 'Arial', 'Times New Roman', sans-serif;
   font-size: 14px;
   padding-bottom: 5px;
@@ -256,12 +256,12 @@ body, html, ul, ol, li, p, h1, h2, h3, h4 {
   opacity: .7;
 }
 
-.special {
+.special-dish {
   border: 1px solid rgba(204, 153, 0, .4);
   padding: 10px;
 }
 
-.marker {
+.dish-marker {
   bottom: 79px;
   position: absolute;
   right: -1px;
