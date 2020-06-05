@@ -144,7 +144,7 @@ body, html, ul, ol, li, p, h1, h2, h3, h4 {
 .description-title {
   color: #c90;
   font-family: "YesevaOne", 'Arial', 'Times New Roman', sans-serif;
-  font-size: 25px;
+  font-size: 35px;
   font-weight: normal;
   margin-bottom: 5px;
 }
@@ -162,4 +162,42 @@ body, html, ul, ol, li, p, h1, h2, h3, h4 {
 
 .cook-img {
   padding-left: 60px;
+}
+
+.ingredients-section {
+  background-image: url(/assets/css/images/ingrid-bg.png);
+  display: flex;
+  justify-content: flex-end;
+  padding: 100px 200px 100px 0px;
+}
+
+.description-ingredients {
+  background-color: rgb(0, 0, 0, .6);;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 500px;
+}
+
+.ingredient-decor {
+  color: #fff;
+}
+
+.ingredient-description {
+  font-family: "Lato", 'Arial', 'Times New Roman', sans-serif;
+  font-size: 15px;
+  margin: 20px 70px 70px;
+  text-align: center;
+}
+
+.ingredient-title {
+  font-family: "YesevaOne", 'Arial', 'Times New Roman', sans-serif;
+  font-size: 35px;
+  font-weight: normal;
+  margin-top: 70px;
+}
+
+.img-section{
+  margin-bottom: 70px;
 }
