@@ -297,7 +297,7 @@ body, html, ul, ol, li, p, h1, h2, h3, h4 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 70px 70px 80px 70px;
+  padding: 70px 70px 80px;
   position: relative;
   width: 770px;
 }
