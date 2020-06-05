@@ -164,15 +164,15 @@ body, html, ul, ol, li, p, h1, h2, h3, h4 {
   padding-left: 60px;
 }
 
-.ingrid-section {
+.ingredients-section {
   background-image: url(/assets/css/images/ingrid-bg.png);
   display: flex;
   justify-content: flex-end;
   padding: 100px 200px 100px 0px;
 }
 
-.descr-ingridients {
-  background-color: rgb(0%, 0%, 0%, .6);;
+.description-ingredients {
+  background-color: rgb(0, 0, 0, .6);;
   color: #fff;
   display: flex;
   flex-wrap: wrap;
@@ -180,18 +180,18 @@ body, html, ul, ol, li, p, h1, h2, h3, h4 {
   width: 500px;
 }
 
-.ingrid-decor {
+.ingredient-decor {
   color: #fff;
 }
 
-.ingrid-description {
+.ingredient-description {
   font-family: "Lato", 'Arial', 'Times New Roman', sans-serif;
   font-size: 15px;
-  margin: 20px 70px 70px 70px;
+  margin: 20px 70px 70px;
   text-align: center;
 }
 
-.ingrid-title {
+.ingredient-title {
   font-family: "YesevaOne", 'Arial', 'Times New Roman', sans-serif;
   font-size: 35px;
   font-weight: normal;
