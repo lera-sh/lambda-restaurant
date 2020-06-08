@@ -330,3 +330,80 @@ body, html, ul, ol, li, p, h1, h2, h3, h4 {
   font-size: 12px;
   margin-top: 30px;
 }
+
+.book-section {
+  align-items: center;
+  background-image: url(../css/images/pattern.png);
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 200px 100px 180px;
+}
+
+.book-part {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 50px;
+  width: 400px;
+}
+
+.book-field {
+  display: flex;
+  margin-top: 35px;
+}
+
+.input-field {
+  font-size: 15px;
+  font-style: italic;
+  margin-right: 30px;
+  padding: 4px 15px;
+  width: 140px;
+}
+
+.input-field:focus {
+  outline-color: rgb(204, 153, 0);
+}
+
+.book-description {
+  font-family: "Lato", 'Arial', 'Times New Roman', sans-serif;
+  font-size: 15px;
+  line-height: 23px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.book-title {
+  color: #cc9900;
+  font-family: "YesevaOne", 'Arial', 'Times New Roman', sans-serif;
+  font-size: 35px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.book-divider {
+  margin-bottom: 25px;
+}
+
+.input-title {
+  color: #c90;
+  font-family: "Lato", 'Arial', 'Times New Roman', sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.input-section {
+  margin-bottom: 25px;
+}
+
+.book-button {
+  background-color: #c90;
+  border: #c90;
+  color: #fff;
+  padding: 6px 15px;
+  cursor: pointer;
+  width: 180px;
+}
+
+.book-img {
+  margin-right: 30px;
+}
